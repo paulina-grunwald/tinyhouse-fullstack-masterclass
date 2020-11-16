@@ -1,0 +1,11 @@
+{
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#4E0F58",
+    "titleBar.activeBackground": "#6E157C",
+    "titleBar.activeForeground": "#FEFCFE"
+  },
+  "eslint.workingDirectories": [
+    "./client",
+    "./server"
+  ]
+}
