@@ -15,6 +15,8 @@ const mount = async (app: Application) => {
     context: () => ({ db })
   });
 
+  server.applyMiddleware({ app, path: "/api" });
+
   app.listen(port);
   console.log(`[app]: http://localhost:${port}`);
   const listings = await db.listings.find({}).toArray();
